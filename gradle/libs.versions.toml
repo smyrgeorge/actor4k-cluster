@@ -1,0 +1,40 @@
+[versions]
+# https://plugins.gradle.org/plugin/org.jetbrains.kotlin.jvm
+kotlin = "2.1.10"
+# https://mvnrepository.com/artifact/org.jetbrains.kotlinx/kotlinx-serialization-protobuf
+kotlinx-serialization-protobuf = "1.8.0"
+# https://github.com/vanniktech/gradle-maven-publish-plugin
+publish = "0.30.0"
+# https://github.com/Kotlin/dokka
+dokka = "2.0.0"
+# https://github.com/mockito/mockito-kotlin
+mockito = "5.4.0"
+# https://plugins.gradle.org/plugin/com.github.johnrengelman.shadow
+shadow = "8.1.1"
+# https://mvnrepository.com/artifact/org.slf4j/slf4j-api
+slf4j = "2.0.16"
+# https://github.com/http4k/http4k
+http4k = "6.0.1.0"
+# https://mvnrepository.com/artifact/com.fasterxml.jackson.core/jackson-core
+jackson = "2.18.2"
+# https://github.com/smyrgeorge/actor4k
+actor4k = "0.16.0"
+
+[libraries]
+kotlinx-serialization-protobuf = { module = "org.jetbrains.kotlinx:kotlinx-serialization-protobuf", version.ref = "kotlinx-serialization-protobuf" }
+mockito = { module = "org.mockito.kotlin:mockito-kotlin", version.ref = "mockito" }
+slf4j-reload4j = { module = "org.slf4j:slf4j-reload4j", version.ref = "slf4j" }
+http4k-bom = { module = "org.http4k:http4k-bom", version.ref = "http4k" }
+jackson-core = { module = "com.fasterxml.jackson.core:jackson-core", version.ref = "jackson" }
+jackson-module-kotlin = { module = "com.fasterxml.jackson.module:jackson-module-kotlin", version.ref = "jackson" }
+jackson-datatype-jsr310 = { module = "com.fasterxml.jackson.datatype:jackson-datatype-jsr310", version.ref = "jackson" }
+actor4k = { module = "io.github.smyrgeorge:actor4k", version.ref = "actor4k" }
+
+[plugins]
+kotlin-jvm = { id = "org.jetbrains.kotlin.jvm", version.ref = "kotlin" }
+kotlin-serialization = { id = "org.jetbrains.kotlin.plugin.serialization", version.ref = "kotlin" }
+pubhish = { id = "com.vanniktech.maven.publish", version.ref = "publish" }
+# https://plugins.gradle.org/plugin/com.google.protobuf
+protobuf = { id = "com.google.protobuf", version = "0.9.4" }
+dokka = { id = "org.jetbrains.dokka", version.ref = "dokka" }
+shadow = { id = "com.github.johnrengelman.shadow", version.ref = "shadow" }
