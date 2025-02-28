@@ -12,7 +12,7 @@ mockito = "5.4.0"
 # https://plugins.gradle.org/plugin/com.github.johnrengelman.shadow
 shadow = "8.1.1"
 # https://mvnrepository.com/artifact/org.slf4j/slf4j-api
-slf4j = "2.0.16"
+slf4j = "2.0.17"
 # https://github.com/http4k/http4k
 http4k = "6.0.1.0"
 # https://mvnrepository.com/artifact/com.fasterxml.jackson.core/jackson-core
