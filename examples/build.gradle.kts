@@ -7,8 +7,6 @@ plugins {
 
 java.sourceCompatibility = JavaVersion.VERSION_17
 
-val grpcVersion: String by rootProject.extra
-
 dependencies {
     implementation(project(":actor4k-cluster"))
     implementation(libs.slf4j.reload4j)

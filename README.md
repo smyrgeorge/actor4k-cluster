@@ -5,7 +5,7 @@
 ![GitHub License](https://img.shields.io/github/license/smyrgeorge/actor4k)
 ![GitHub commit activity](https://img.shields.io/github/commit-activity/w/smyrgeorge/actor4k)
 ![GitHub issues](https://img.shields.io/github/issues/smyrgeorge/actor4k)
-[![Kotlin](https://img.shields.io/badge/kotlin-2.0.21-blue.svg?logo=kotlin)](http://kotlinlang.org)
+[![Kotlin](https://img.shields.io/badge/kotlin-2.1.10-blue.svg?logo=kotlin)](http://kotlinlang.org)
 
 A small actor system written in kotlin using Coroutines.
 
