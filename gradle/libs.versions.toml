@@ -4,7 +4,7 @@ kotlin = "2.1.10"
 # https://mvnrepository.com/artifact/org.jetbrains.kotlinx/kotlinx-serialization-protobuf
 kotlinx-serialization-protobuf = "1.8.0"
 # https://github.com/vanniktech/gradle-maven-publish-plugin
-publish = "0.30.0"
+publish = "0.31.0"
 # https://github.com/Kotlin/dokka
 dokka = "2.0.0"
 # https://github.com/mockito/mockito-kotlin
